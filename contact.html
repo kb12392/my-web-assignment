@@ -1,43 +1,43 @@
 <!DOCTYPE html>
-<html 
+<html lang="en">
 <head>
-    <title>contact | karuna basnet</title>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
 </head>
 <body>
-    
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="project.html>"projects</a>
-        <a href="contact.html">contact</a>
-        <a href="sitereport.html">sitereport</a>
-        <a href="videodemo.html">videodemo</a>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="project.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="videoDemo.html">Video Demo</a>
+        <a href="sitereport.html">Site Report</a>
     </nav>
+</header>
 
-    <h1>contact me</h1>
-    <p>if if you have any questions, please feel to reach out using the form below.</p>
-    <form action="mailto:karunabasnet982@gmail.com" method ="post" enctype="text/plain">
-      <p>
-        Name:<br>
-        <input type="text" name="name" ><br>
-       </P>
+<main class="content">
+    <h1>Contact Me</h1>
 
-       <P>
-        Email:<br>
-        <input type="text" name="mail" ><br>
-        </P>
+    <form action="mailto:karuna@example.com" method="post" enctype="text/plain">
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
 
-         <P>
-        Message:<br>
-        <textarea name="message" rows="10" colums="30"></textarea><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Message:</label><br>
+        <textarea name="message" rows="5"></textarea><br><br>
+
         <input type="submit" value="Send">
-        <input type="reset" value="Reset">
-      </p>
     </form>
+</main>
 
-    <hr>
+<footer>
+    <p>karunabasnet982@gmail.com</p>
+</footer>
 
-    <footer>
-       <p> 2026 karuna basnet</p>
-    </footer>
 </body>
 </html>
